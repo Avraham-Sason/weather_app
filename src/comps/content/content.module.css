@@ -1,0 +1,23 @@
+.hiro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.hiro img{
+    width: 150px;
+    height: 150px;
+}
+.hiro h4,.hiro h1{
+    margin: 0;
+}
+@media screen and (max-width:300px) {
+    .hiro h1{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:200px) {
+    .hiro h1{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,13 @@
+.divAll{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: white;
+    /* background-color: #00000063; */
+    background-color: rgba(0, 0, 0, 0.636);
+    height: 100vh;
+}
+.divAll h2,h4{
+    text-align: center;
+}
